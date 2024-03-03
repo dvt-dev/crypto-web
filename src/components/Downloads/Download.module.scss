@@ -1,0 +1,35 @@
+.wrapper {
+  padding: 0 135px;
+
+  .container {
+    padding: 110px 0 100px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 235px;
+
+    .content {
+      color: var(--white-color);
+      display: flex;
+      flex-direction: column;
+      padding-top: 75px;
+
+      .download-title {
+        font-size: 3.2rem;
+        font-weight: 700;
+        line-height: normal;
+      }
+
+      .download-des {
+        margin-top: 14px;
+        font-size: 1.7rem;
+        line-height: 28px;    
+      }
+
+      .app-store {
+        margin-top: 50px;
+        display: flex;
+        gap: 30px;
+      }
+    }
+  }
+}
