@@ -12,3 +12,12 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .app {
+    .bgc {
+      background-image: none;
+      height:  auto;
+    }
+  }
+}
+

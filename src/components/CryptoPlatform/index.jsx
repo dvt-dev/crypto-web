@@ -18,22 +18,22 @@ const CryptoPlatform = () => {
                     <div className={cx("reason-item")}>
                         <div className={cx("reason-image")}>
                             <img className={cx("reason-img")} src={platform1} />
-                            <div className={cx("reason-content")}>
-                                <h2 className={cx("reason-name")}>
-                                    Ease of Trading
-                                </h2>
-                                <ul className={cx("reason-content-list")}>
-                                    <li className={cx("reason-content-item")}>
-                                        Intuitive interface
-                                    </li>
-                                    <li className={cx("reason-content-item")}>
-                                        Instant deposit options
-                                    </li>
-                                    <li className={cx("reason-content-item")}>
-                                        Cash out directly to your bank account
-                                    </li>
-                                </ul>
-                            </div>
+                        </div>
+                        <div className={cx("reason-content")}>
+                            <h2 className={cx("reason-name")}>
+                                Ease of Trading
+                            </h2>
+                            <ul className={cx("reason-content-list")}>
+                                <li className={cx("reason-content-item")}>
+                                    Intuitive interface
+                                </li>
+                                <li className={cx("reason-content-item")}>
+                                    Instant deposit options
+                                </li>
+                                <li className={cx("reason-content-item")}>
+                                    Cash out directly to your bank account
+                                </li>
+                            </ul>
                         </div>
                     </div>
                     <div className={cx("reason-item")}>

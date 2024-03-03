@@ -28,12 +28,12 @@ const Footer = () => {
                             </li>
                             <li>
                                 <a className={cx("footer-item-info-link")}>
-                                    Privacy
+                                    Privacy Policy
                                 </a>
                             </li>
                             <li>
                                 <a className={cx("footer-item-info-link")}>
-                                    Policy Disclaimer
+                                    Disclaimer
                                 </a>
                             </li>
                         </ul>

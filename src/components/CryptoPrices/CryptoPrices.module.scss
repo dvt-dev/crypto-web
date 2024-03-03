@@ -12,7 +12,8 @@
       text-align: center;
       color: var(--white-color);
       font-size: 3.2rem;
-      font-family: "Open Sans", sans-serif;
+      font-weight: 700;
+      font-family: "Poppins", sans-serif;
     }
 
     .table-prices {
@@ -44,6 +45,10 @@
             width: 9px;
             height: 7px;
           }
+        }
+
+        &:nth-child(2) {
+          text-align: left;
         }
       }
 
@@ -152,4 +157,68 @@
   }
 
   
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    padding: 0 16px;
+    margin: 50px 0;
+
+
+    .container {
+
+      .crypto-prices__title {
+        font-size: 2rem;
+      }
+
+      .table-prices {
+        margin-top: 30px;
+        .table-head {
+          border-top: none;
+
+          .table-heading:nth-child(1), 
+          .table-heading:nth-child(3), 
+          .table-heading:nth-child(4), 
+          .table-heading:nth-child(5),
+          .table-heading:nth-child(6),
+          .table-heading:nth-child(8)
+           {
+            display: none;
+          }         
+
+          .table-heading:nth-child(7) {
+            text-align: right;
+          }
+        }
+        
+        .table-body {
+          .table-row .table-data:nth-child(1),
+          .table-row .table-data:nth-child(3),         
+          .table-row .table-data:nth-child(4),
+          .table-row .table-data:nth-child(5),
+          .table-row .table-data:nth-child(6),
+          .table-row .table-data:nth-child(8) {
+              display: none;
+            }
+
+          .table-row {           
+              .volume {
+                text-align: right;
+                .volume-date-USD {
+                  padding-top: 0;
+                }
+              }  
+              
+              &:last-child {
+                border-block-end: none;
+              }
+
+              
+          }
+          
+          
+        }
+      }
+    }
+  }
 }

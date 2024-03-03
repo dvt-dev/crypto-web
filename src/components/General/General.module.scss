@@ -53,3 +53,38 @@
     // }
   }
 }
+
+// Responsive on mobile
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    padding: 0 16px;
+    margin-top: 0;
+
+    .general-container {
+      br {
+        display: none;
+      }
+      .general-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        .general-text {
+          font-size: 2.4rem;
+          text-align: center;
+        }
+
+        .general-sub-text {
+          font-size: 1.6rem;
+          text-align: center;
+        }
+      }
+
+      .frame {
+        display: none;
+      }
+    }
+  }
+}

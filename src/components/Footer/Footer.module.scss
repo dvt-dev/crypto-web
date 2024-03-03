@@ -64,3 +64,31 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    padding: 0 16px;
+
+    .container {
+      padding-top: 30px;
+
+      .footer-content {
+        flex-wrap: wrap;
+        gap: 30px;
+
+        .footer-item {
+          flex-basis: 33%;
+
+          .footer-item-info {
+            margin-top: 20px;
+          }
+        }
+      }
+
+      .copyright-social {
+        flex-direction: column-reverse;
+        gap: 25px;
+      }
+    }
+  }
+}

@@ -25,10 +25,63 @@
         line-height: 28px;    
       }
 
-      .app-store {
+      .app-store, .app-store-2 {
         margin-top: 50px;
         display: flex;
         gap: 30px;
+      }
+
+      .app-store-2 {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    padding: 0 16px;
+
+    .container {
+      padding: 50px 0;
+      flex-direction: column;
+      gap: 30px;
+
+      .content {
+        padding-top: 0;
+
+        .download-title {
+          font-size: 2rem;
+          text-align: center;
+        }
+
+        .download-des {
+          font-size: 1.4rem;
+          text-align: center;
+        }
+
+        .app-store {
+          display: none;
+        }
+      }
+
+      .intro {
+        text-align: center;
+        .intro-img {
+          width: 220px;
+          height: 220px;
+        }
+      }
+
+      .app-store-2 {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+
+        .apple-store, .google-play {
+          width: 100px;
+          height: 35px;
+        }
       }
     }
   }

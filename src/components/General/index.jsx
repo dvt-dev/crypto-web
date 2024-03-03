@@ -13,8 +13,7 @@ function General() {
                 <div className={cx("general-content")}>
                     <h2 className={cx("general-text")}>
                         Make better businees
-                        <br />
-                        with Cryptocurrency
+                        <br /> with Cryptocurrency
                     </h2>
                     <p className={cx("general-sub-text")}>
                         We offers users a fully operational long-term rental
@@ -27,7 +26,7 @@ function General() {
                     </button>
                 </div>
                 <div className={cx("frame")}>
-                    <img src={frame} alt="fram" className={cx("frame-img")} />
+                    <img src={frame} alt="frame" className={cx("frame-img")} />
                 </div>
                 {/* <div className={cx("scrool")}>
                     <img

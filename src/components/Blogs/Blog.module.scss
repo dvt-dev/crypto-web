@@ -64,3 +64,17 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    padding: 0 16px;
+
+    .container {
+      padding: 35px 0;
+
+      .blogs-list {
+        flex-direction: column;
+      }
+    }
+  }
+}

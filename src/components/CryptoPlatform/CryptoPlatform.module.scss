@@ -42,3 +42,30 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    padding: 0 16px;
+
+    .container {
+      padding-top: 50px;
+      .title {
+        font-size: 2rem;
+        // font-weight: 700;
+        line-height: normal;
+      }
+
+      .crypto-platform-reasons {
+        margin-top: 30px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+
+        .reason-item {
+          text-align: center;
+        }
+      }
+    }
+  }
+}

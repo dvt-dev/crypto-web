@@ -38,6 +38,19 @@ const Download = () => {
                 <div className={cx("intro")}>
                     <img className={cx("intro-img")} src={introApp} />
                 </div>
+
+                <div className={cx("app-store-2")}>
+                    <img
+                        className={cx("apple-store")}
+                        src={AppStore}
+                        alt="apple-store"
+                    />
+                    <img
+                        className={cx("google-play")}
+                        src={GooglePlay}
+                        alt="google-play"
+                    />
+                </div>
             </div>
         </div>
     );
