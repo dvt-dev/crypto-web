@@ -6,6 +6,7 @@ import CryptoPlatform from "./components/CryptoPlatform";
 import Download from "./components/Downloads";
 import Blog from "./components/Blogs";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
     return (
@@ -20,6 +21,7 @@ function App() {
             <Download />
             <Blog />
             <Contact />
+            <Footer />
         </div>
     );
 }

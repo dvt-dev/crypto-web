@@ -45,7 +45,15 @@
         margin: 6px;
         padding: 19px 26px;
         background-color: var(--button-color);
+        color: var(--white-color);
         border-radius: 31px;
+        transition: all linear .2s;
+
+        &:hover {
+          cursor: pointer;
+          opacity: 0.9;
+          
+        }
       }
     }
   }
