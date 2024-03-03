@@ -1,0 +1,44 @@
+.wrapper {
+  padding: 0 135px;
+  background-color: #FFF6FB;
+ 
+
+  .container {
+    padding: 100px 0;
+
+    .title {
+      text-align: center;
+      font-size: 3.2rem;
+      line-height: 17px;
+    }
+
+    .crypto-platform-reasons {
+      margin-top: 60px;
+      display: flex;
+      justify-content: space-between;
+      gap: 140px;
+
+      .reason-item {
+
+        .reason-content {
+          margin-top: 45px;          
+          font-family: "Inter", sans-serif;
+          
+
+          .reason-name {
+            font-size: 2.4rem;
+            font-weight: 600;
+            margin-bottom: 29px;
+          }
+
+          .reason-content-list {
+            font-size: 1.7rem;
+            display: flex;
+            flex-direction: column;
+            gap: 29px;
+          }
+        }
+      }
+    }
+  }
+}

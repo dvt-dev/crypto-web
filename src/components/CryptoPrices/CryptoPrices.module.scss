@@ -1,11 +1,154 @@
 .wrapper {
-  height: 600px;
   margin-top: 90px;
+  margin-bottom: 110px;
   padding: 0 135px;
 
-  .crypto-prices__title {
-    text-align: center;
+  .container {
     color: var(--white-color);
-    font-size: 3.2rem;
+    font-family: "Inter", sans-serif;
+   
+
+    .crypto-prices__title {
+      text-align: center;
+      color: var(--white-color);
+      font-size: 3.2rem;
+    }
+
+    .table-prices {
+      margin-top: 60px;
+      width: 100%;
+      border-collapse: collapse;
+
+      .table-head {
+        border-block-start: 0.6px solid #bdbdbd;
+        border-block-end: 0.6px solid #bdbdbd;
+      }
+
+      .table-heading, .table-data {
+        padding: 8px;
+      }
+
+      .table-heading {
+        font-weight: normal;
+        text-align: center;
+        font-size: 1.4rem;
+
+        &:nth-child(1) {
+          display: flex;
+          gap: 4px;
+          align-items: center;
+          justify-content: flex-end;
+
+          .star-icon {
+            width: 9px;
+            height: 7px;
+          }
+        }
+      }
+
+      
+      .table-row {
+        height: 85px;
+        border-block-end: 0.6px solid #bdbdbd;
+        text-align: center;
+
+        .rank {
+          // display: flex;
+          // align-items: center;
+          // gap: 12px;
+
+          .rank-number {
+            font-size: 1.2rem;
+            color: var(--gray-color);
+            margin-left: 12px;
+          }
+        }
+
+        .name-wrapper {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+
+          .coin-name {
+            font-size: 1.3rem;
+            line-height: 16px;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 400;
+
+            .name-acronym {
+              font-size: 1.1rem;
+              line-height: 11px;
+              color: var(--gray-color);
+              margin-left: 5px;
+            }
+          }
+        }
+
+        .last-price {
+          font-size: 1.4rem;
+          line-height: 14p4px;
+        }
+
+        .last-update-date {
+          // display: flex;
+          // align-items: center;         
+
+          .last-update-date-percent {
+            font-size: 1.3rem;
+            line-height: 16px;
+          }
+
+          .last-update-date-percent.green {
+            color: var(--green-color);
+          }
+
+          .last-update-date-percent.red {
+            color: var(--red-color);
+          }
+        }
+
+        .last-update-week {
+          .last-update-week-percent {
+            font-size: 1.3rem;
+            line-height: 16px;    
+            text-align: center;       
+          }
+
+          .last-update-week-percent.green {
+            color: var(--green-color);
+          }
+
+          .last-update-week-percent.red {
+            color: var(--red-color);
+          }
+        }
+
+        .market-cap, .volume {
+          font-size: 1.4rem;
+          font-weight: 500;
+        }
+
+        .volume {
+
+          .volume-date {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+              .volume-date-USD {
+                padding-top: 23px;
+              }
+
+              .volume-date-BTC {
+                font-size: 1.1rem;
+                color: var(--gray-color);
+                padding-left: 62px;
+              }
+          }
+        }
+      }
+    }
   }
+
+  
 }

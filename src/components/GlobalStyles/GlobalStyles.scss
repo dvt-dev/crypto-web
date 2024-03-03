@@ -1,10 +1,14 @@
 @import 'normalize.css';
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 :root {
   --background-color: #1B004E;
   --white-color: #fff;
   --black-color: #000;
+  --green-color: #1AFF7C;
+  --red-color: #FF1A1A;
+  --gray-color: #828282;
   --button-color: #EB5757;
 }
 
@@ -40,3 +44,12 @@ a {
   border: none;
   outline: none;
 }
+
+.up-icon,
+.down-icon {
+  width: 8px;
+  height: 8px;
+  margin-bottom: 1px;
+  margin-right: 7px;
+}
+

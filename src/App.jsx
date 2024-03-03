@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./components/Header";
 import General from "./components/General";
 import CryptoPrices from "./components/CryptoPrices";
+import CryptoPlatform from "./components/CryptoPlatform";
 
 function App() {
     return (
@@ -12,6 +13,7 @@ function App() {
             </div>
 
             <CryptoPrices />
+            <CryptoPlatform />
         </div>
     );
 }
