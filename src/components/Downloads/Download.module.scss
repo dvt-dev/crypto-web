@@ -25,15 +25,17 @@
         line-height: 28px;    
       }
 
-      .app-store, .app-store-2 {
+      .app-store {
         margin-top: 50px;
         display: flex;
         gap: 30px;
       }
 
-      .app-store-2 {
-        display: none;
-      }
+     
+    }
+
+    .app-store-2 {
+      display: none;
     }
   }
 }
