@@ -1,6 +1,8 @@
 import classNames from "classnames/bind";
 import styles from "./Header.module.scss";
+
 import logo from "../../assets/images/logo.png";
+import barIcon from "../../assets/icons/bars.png";
 
 const cx = classNames.bind(styles);
 
@@ -40,6 +42,14 @@ const Header = () => {
                 </nav>
 
                 <button className={cx("button-trade", "btn")}>Trade Now</button>
+
+                <div className={cx("menu-mobile")}>
+                    <img
+                        className={cx("bars-icon")}
+                        src={barIcon}
+                        alt="bars-icon"
+                    />
+                </div>
             </div>
         </header>
     );

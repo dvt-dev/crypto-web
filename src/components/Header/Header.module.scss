@@ -34,14 +34,21 @@
             &:hover {
               cursor: pointer;
               opacity: 0.8;
+              
             }
 
              .nav-item-link {
               color: var(--white-color);
               font-size: 1.7rem;
+
+              
              }
           }
         }
+      }
+
+      .menu-mobile {
+        display: none;
       }
 
       .button-trade {
@@ -66,14 +73,44 @@
 @media screen and (max-width: 768px) {
   .wrapper {
     padding: 0 16px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    background-color: var(--background-color);
 
-    .nav-bar {
-      display: none;
-    }    
+    .header-container {
+      .nav-bar {
+          display: none;
+          // position: fixed;
+          // top: 100px ;
+          // left: 0;
+          // right: 0;
+          // width: 100%;
+          // background-color: rgba(78, 0, 98, 1);
 
-    .button-trade {
-      display: none;
+          // .nav-list {
+          //   flex-direction: column;
+          //   padding: 16px;
+          //   text-align: center;
+          // }
+        }
+      
+        .button-trade {
+          display: none;
+        }
+      
+        .menu-mobile {
+          display: block;
+
+          &:hover {
+            cursor: pointer;
+          }
+        }
     }
+
+   
   }
 }
 
