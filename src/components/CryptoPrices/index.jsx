@@ -5,6 +5,7 @@ import sortUp from "../../assets/icons/sort-up.png";
 import star from "../../assets/icons/star.png";
 import upIcon from "../../assets/icons/up-green.png";
 import downIcon from "../../assets/icons/down-red.png";
+import info from "../../assets/icons/info.png";
 
 import bitcoin from "../../assets/images/coins/bitcoin.png";
 import ethereum from "../../assets/images/coins/ethereum.png";
@@ -39,7 +40,14 @@ const CryptoPrices = () => {
                             <th className={cx("table-heading")}>Price</th>
                             <th className={cx("table-heading")}>24h %</th>
                             <th className={cx("table-heading")}>7d %</th>
-                            <th className={cx("table-heading")}>Market Cap</th>
+                            <th className={cx("table-heading")}>
+                                Market Cap
+                                <img
+                                    className={cx("info-icon")}
+                                    src={info}
+                                    alt="info-icon"
+                                />
+                            </th>
                             <th className={cx("table-heading")}>Volume(24h)</th>
                             <th className={cx("table-heading")}>Last 7 Days</th>
                         </tr>

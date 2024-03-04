@@ -34,6 +34,7 @@
         font-weight: normal;
         text-align: center;
         font-size: 1.4rem;
+       
 
         &:nth-child(1) {
           display: flex;
@@ -45,6 +46,13 @@
             width: 9px;
             height: 7px;
           }
+        }
+
+        &:nth-child(6) {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 10px;
         }
 
         &:nth-child(2) {
